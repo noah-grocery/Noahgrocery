@@ -1,0 +1,119 @@
+@import 'global.css';
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+    header {
+	background-color: #fff;
+	height: 80px;
+	border-bottom: 1px solid #eee;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+
+header h1 {
+	margin: 0;
+}
+#banner {
+	background-color: #0000FF;
+	background-size: cover;
+	background-position: center;
+	height: 410px;
+	display: flex;
+	align-items: center;
+	font-size: 50px;
+
+
+}
+
+#banner .container {
+    color: #FFF;
+
+}
+
+#banner h2 {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+#banner p {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+#banner a {
+	text-decoration: none;
+	color: #fff;
+}
+.container {
+	overflow: hidden;
+  }
+
+  .filterDiv {
+	float: left;
+	background-color: #0000FF;
+	color: #ffffff;
+	width: 375px;
+	line-height: 100px;
+	text-align: center;
+	margin: 10px;
+	display: none; /* Hidden by default */
+	border-radius: 15px;
+  }
+
+
+  /* The "show" class is added to the filtered elements */
+  .show {
+	display: block;
+  }
+
+  /* Style the buttons */
+  .btn {
+	outline: none;
+	padding: 12px 16px;
+	cursor: pointer;
+	background-color: #fff;
+	border: none;
+	border-radius: 15px;
+  }
+
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+	background-color: #ddd;
+  }
+
+  /* Add a dark background to the active button */
+  .btn.active {
+	background-color: #666;
+	color: white;
+  }
+.filterDiv:hover {
+	background-color: #333;
+	transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.options button {
+	border-radius: 15px;
+	border: none;
+	background-color: #0000FF;
+	color: white;
+	width: 250px;
+	height: 150px;
+	margin: 20px;
+}
+.options button:hover {
+	transition: background-color 0.3s ease;
+    cursor: pointer;
+	background-color: #333;
+}

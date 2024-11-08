@@ -1,0 +1,23 @@
+@import 'global.css';
+
+.support button {
+    display: block;
+    background-color: #0000FF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.support a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.support button:hover {
+    background-color: #333;
+}

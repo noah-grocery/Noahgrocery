@@ -1,0 +1,33 @@
+@import '../global.css';
+
+.similar {
+    float: right;
+    margin: 0 20px 0 0;
+}
+.similar a {
+    text-decoration: none;
+    color: #333;
+
+}
+.similar a:hover {
+    color: #0000FF;
+}
+.return {
+    background-color: #0000FF;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.return a {
+    color: white;
+    text-decoration: none;
+}
+.return:hover {
+    background-color: #333;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+p {
+    width: 350px;
+    word-wrap: break-word;
+}
